@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolio</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body>
+    <!-- Navbar -->
+     <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#" class="font-bold text-2xl text-primary block py-6">ADRI</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="w-[30px] h-[2px] my-2 block bg-black transition duration-500 ease-in-out origin-top-left"></span>
+                        <span class="w-[30px] h-[2px] my-2 block bg-black  transition duration-500 ease-in-out"></span>
+                        <span class="w-[30px] h-[2px] my-2 block bg-black  transition duration-500 ease-in-out  origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="navbar-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#" class="text-base text-slate-500 py-2 mx-8 flex group-hover:text-primary lg:font-semibold">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base text-slate-500 py-2 mx-8 flex group-hover:text-primary  lg:font-semibold">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="#project" class="text-base text-slate-500 py-2 mx-8 flex group-hover:text-primary lg:font-semibold">Project</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="text-base text-slate-500 py-2 mx-8 flex group-hover:text-primary lg:font-semibold">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+     </header>
+    <!-- End -->
+     
+    <!-- Home Section -->
+     <section id="home-page" class="pt-32">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-xl font-semibold text-primary md:text-xl lg:text-2xl">Hello Everyone👋,  <spanc class="block font-bold text-secondary text-4xl mt-1">I'am Adrian Rasyid</spanc></h1>
+                    <p class="font-medium text-slate-500 mt-4 mb-8 lg:text-2xl">Seorang Mahasiswa Sistem Informasi Universitas Bina Sarana Informatika</p>
+
+                    <a href="#" class="text-base font-medium text-white bg-red-600 py-3 px-8 rounded-full hover:shadow-lg hover:bg-red-700 transition duration-300">Show More</a>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="relative mt-10 lg:mt-9 lg:right-0">
+                        <img src="./src/img/My Photo.png" alt="Adrian Rasyid" width="335" class="max-w-full mx-auto rounded-full">
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- End -->
+
+    <!-- About Section -->
+     <section id="about" class="pt-32 pb-28">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h2 class="font-bold uppercase text-primary text-xl mb-3 lg:text-3xl">About Me</h2>
+                    <p class="font-semibold text-base text-slate-500 max-w-xl lg:text-2xl lg:font-medium">Saya merupakan mahasiswa Universitas Bina Sarana Informatika Prodi Sistem Informasi semester 7. Saya memiliki pengalaman dalam membuat website yang saya dapatkan dari mata kuliah kampus.</p>
+                </div>
+                <div class="w-full px-4 lg:w-1/2">
+                    <h2 class="font-bold uppercase text-primary text-xl mb-3 lg:text-3xl">My Skill</h2>
+                    <div class="flex items-center">
+                        <!-- html -->
+                         <a href="" class="mr-6">
+                            <img src="./src/img/icon/html.png" width="30" alt="">
+                         </a>
+                        <!-- css -->
+                        <a href="" class="mr-6">
+                            <img src="./src/img/icon/css-3.png" width="30" alt="">
+                         </a>
+                        <!-- js -->
+                        <a href="" class="mr-6">
+                            <img src="./src/img/icon/js.png" width="30" alt="">
+                         </a>
+                        <!-- bootstrap -->
+                        <a href="" class="mr-6">
+                            <img src="./src/img/icon/bootstrap.png" width="30" alt="">
+                         </a>
+                        <!-- figma -->
+                        <a href="" class="mr-6">
+                            <img src="./src/img/icon/figma.png" width="30" alt="">
+                         </a>
+                        <!-- tailwind -->
+                        <a href="" class="mr-6">
+                            <img src="./src/img/icon/tailwind.png" width="36" alt="">
+                         </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- End -->
+    
+    <!-- Project Section -->
+     <section id="project" class="pt-12 pb-16 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-10">
+                    <h2 class="font-bold uppercase text-primary text-xl mb-3 lg:text-3xl">My Project</h2>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center">
+                <div class="mb-10 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="./src/img/Project 1.png" alt="Restaurant Apps Web" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-lg text-secondary mt-2 mb-3">Restaurant Apps Web</h3>
+                    <p class="font-small text-base text-slate-500">Restaurant App adalah sebuah website yang dapat melihat rating Restaurant di kota yang tersebar di wilayah Indonesia.</p>
+                </div>
+                <div class="mb-10 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="./src/img/Project 2.png" alt="Notes App API" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-lg text-secondary mt-2 mb-3">Notes App API</h3>
+                    <p class="font-small text-base text-slate-500">Notes App API adalah sebuah website untuk menambah catatan baru, mengedit, dan menghapus yang disimpan dalam API.</p>
+                </div>
+                <div class="mb-10 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="./src/img/Project 3.png" alt="Bookshelf Apps" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-lg text-secondary mt-2 mb-3">Bookshelf Apps</h3>
+                    <p class="font-small text-base text-slate-500">Bookshelf Apps adalah website yang dapat menyimpan buku yang belum selesai dibaca maupun yang sudah selesai dibaca dengan memanfaatkan Web Storage.</p>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- End -->
+
+    <!--Contact Section -->
+     <footer id="contact" class="pt-12 pb-12">
+        <div class="container">
+            <div class="max-w-xl mx-auto text-center mb-10">
+                <h2 class="font-bold uppercase text-primary text-xl mb-3 lg:text-3xl"> My Contact</h2>
+            </div>
+            <div class="w-full pt-10 border-t border-slate-300">
+                <div class="flex items-center justify-center">
+                    <!-- linkedin -->
+                     <a href="https://www.linkedin.com/in/adrian-rasyid/" class="mr-6">
+                        <img src="./src/img/icon/linkedin.png" width="30" alt="">
+                     </a>
+                    <!-- github -->
+                    <a href="https://github.com/adriannrasyid" class="mr-6">
+                        <img src="./src/img/icon/github.png" width="30" alt="">
+                     </a>
+                    <!-- ig -->
+                    <a href="https://www.instagram.com/adrian_rasyid/" class="mr-6">
+                        <img src="./src/img/icon/instagram.png" width="30" alt="">
+                     </a>
+                </div>
+            </div>
+        </div>
+     </footer>
+    <!--End  -->
+
+    <script src="./src/js/main.js"></script>
+    </body>
+</html>
