@@ -10,7 +10,6 @@ window.onscroll = function () {
     }
 };
 
-
 // hambuger button
 const hamburger = document.querySelector('#hamburger');
 const navbarMenu = document.querySelector('#navbar-menu');
